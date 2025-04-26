@@ -82,5 +82,16 @@ print_LL(newhead)
 
 
 
-
+def createLLfromlist(l1):
+    head= None
+    tail = None
+    for value in l1:
+        newnode= Node(value)
+        if head==None:
+            head= newnode
+            tail = newnode
+        else:
+            tail.next= newnode
+            tail = newnode
+    return head
 
