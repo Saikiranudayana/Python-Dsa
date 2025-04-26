@@ -95,3 +95,10 @@ def createLLfromlist(l1):
             tail = newnode
     return head
 
+def lengthofll(head):
+    temp = head
+    ans = 0
+    while (temp !=None):
+        temp = temp.next
+        ans = ans +1
+    return ans
