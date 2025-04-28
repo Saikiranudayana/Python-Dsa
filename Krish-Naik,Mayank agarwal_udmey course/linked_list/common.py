@@ -38,8 +38,7 @@ def take_input_better():
         value = int(input("Enter the value of node"))
     return head
 
-newhead= take_input_better()
-print_LL(newhead)
+
 
 ##Take input of linjked list
 
@@ -77,8 +76,6 @@ def take_input():
         value = int(input("Enter the value of node"))
     return head
 
-newhead= take_input()
-print_LL(newhead)
 
 
 
